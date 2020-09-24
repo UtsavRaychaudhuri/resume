@@ -3,7 +3,7 @@ layout: single
 author_profile: true
 permalink: /
 toc: true
-date: 2018-06-23T17:10:45.025Z
+date: 2020-09-23T17:10:45.025Z
 ---
 
 <!-- 
@@ -13,12 +13,20 @@ date: 2018-06-23T17:10:45.025Z
 
 <div class="cv_content">
   <ul>
-    <li>
-      <strong>GSLab, <i class="fa fa-map-marker" aria-hidden="true"></i> Pune</strong>
-      <code class="highlighter-rouge ">Aug 2016 - Present</code>
+  <li>
+      <strong>Portland State University, <i class="fa fa-map-marker" aria-hidden="true"></i> Pune</strong>
+      <code class="highlighter-rouge ">Feb 2020 - Present</code>
       <br/>
       <span>
-        <i class='fa fa-laptop' aria-hidden='true'></i> <i>Software Developer</i>
+        <i class='fa fa-laptop' aria-hidden='true'></i> <i>Graduate Research Assistant</i>
+      </span>
+    </li>
+    <li>
+      <strong>GSLab, <i class="fa fa-map-marker" aria-hidden="true"></i> Pune</strong>
+      <code class="highlighter-rouge ">Nov 2016 - Aug 2019</code>
+      <br/>
+      <span>
+        <i class='fa fa-laptop' aria-hidden='true'></i> <i>Software Engineer</i>
       </span>
     </li>
   </ul>
@@ -37,44 +45,97 @@ date: 2018-06-23T17:10:45.025Z
 ## Projects <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
 <div class="cv_content">
   <ul>
-    <li>
-      <strong>IBM Cost And Asset Management (CAM)</strong>
-      <code class="highlighter-rouge ">Jan 2018 - Present</code>
+  <li>
+      <strong>Transportation Research And Education Center Project- Portals</strong>
+      <code class="highlighter-rouge ">Feb 2020 - Present</code>
       <code class="highlighter-rouge live-label">LIVE</code>
       <br/>
       <span>
-        Cost and Asset Management gives hybrid cloud users real-time visibility and actionable insight into their cloud investments.
+        This project is used to visualize the transportation data from various data feeds we receive in the Portland Metro Area. I was responsible for writing a Monitoring Application which monitors these feeds and alerts various stake-holders when one of them is broken.The application also generates various QOS(Quality of Service) Metrics from this data for post mortem analysis. 
         <br/>
         <button class='btn btn--small btn--light-outline tech-label'>Python</button>
-        <button class='btn btn--small btn--light-outline tech-label'>Pandas</button>
-        <button class='btn btn--small btn--light-outline tech-label'>Spark</button>
-        <button class='btn btn--small btn--light-outline tech-label'>Docker</button>
+        <button class='btn btn--small btn--light-outline tech-label'>Django</button>
+        <button class='btn btn--small btn--light-outline tech-label'>PostgreSQL</button>
       </span>
     </li>
     <li>
-      <strong>Docker Compose for CAM</strong>
-      <code class="highlighter-rouge ">Jan 2018 - Mar 2018</code>
+      <strong>Proprietary Cloud Project</strong>
+      <code class="highlighter-rouge ">Jan 2018 - August 2019</code>
       <br/>
       <span>
-        This is basically the docker-compose dynamic script designed for developer to setup the entire dev environment easily and test the local changes. Advantages of this over the kubernetes deployment are, <strong><i>On the fly code changes, DNS proxy server</i></strong> etc.
+        This project was used to integrate multiple Cloud providers like AWS,IBM Cloud,GCP and VMWare into a single product. So that our customers could use this for managing their public cloud workloads
         <br/>
         <button class='btn btn--small btn--light-outline tech-label'>Python</button>
+        <button class='btn btn--small btn--light-outline tech-label'>Node.Js</button>
+        <button class='btn btn--small btn--light-outline tech-label'>GoLang</button>
+        <button class='btn btn--small btn--light-outline tech-label'>Kubernetes</button>
         <button class='btn btn--small btn--light-outline tech-label'>Docker</button>
-        <button class='btn btn--small btn--light-outline tech-label'>Docker Compose</button>
+        <button class='btn btn--small btn--light-outline tech-label'>Amazon Web Services</button>
+        <button class='btn btn--small btn--light-outline tech-label'>Google Cloud</button>
+        <button class='btn btn--small btn--light-outline tech-label'>IBM Cloud</button>
+        <button class='btn btn--small btn--light-outline tech-label'>Terraform</button>
       </span>
     </li>
     <li>
-      <strong>Air Quality Monitoring</strong>
-      <code class="highlighter-rouge ">Oct 2017 - Dec 2017</code>
+      <strong>Service Online</strong>
+      <code class="highlighter-rouge ">Nov 2016 - Jan 2018</code>
       <br/>
       <span>
-        Its a central air quality monitoring dashbard which will help people of the city to identify how affected is the particular area with dangerous pollutants. Air quality sensor simulators were used to periodically send the data to central service for analysis.
+        Service Online is a Django project for managing multiple Openstack Setups using a single DashBoard. It has a plug and play UI where you just need to need enter the auth credentials of your Openstack Setup and then you can manage your Setup using Service Online. My responsibilities included writing the authorization middleware in Django. I also wrote the Intital Code for Managing Projects(Keystone) in the application. 
         <br/>
-        <button class='btn btn--small btn--light-outline tech-label'>NodeJS</button>
-        <button class='btn btn--small btn--light-outline tech-label'>CouchDB</button>
-        <button class='btn btn--small btn--light-outline tech-label'>Node-RED</button>
-        <button class='btn btn--small btn--light-outline tech-label'>Raspberry Pi</button>
-        <button class='btn btn--small btn--light-outline tech-label'>IBM IoT Platform</button>
+        <button class='btn btn--small btn--light-outline tech-label'>Python</button>
+        <button class='btn btn--small btn--light-outline tech-label'>Django</button>
+        <button class='btn btn--small btn--light-outline tech-label'>Openstack</button>
+      </span>
+    </li>
+    <li>
+      <strong>Ranking Youtube Videos by Performing sentiment analysis on video comments</strong>
+      <code class="highlighter-rouge ">Sep 2019 - Dec 2019</code>
+      <br/>
+      <span>
+        This project is used to rank youtube videos on the basis of the comments received on the videos. It uses Google natural Language API for measuring the sentiments of the comments and the Youtube API for pulling videos and their comments from Youtube. Wrote a custom ranking algorithm for ranking the videos based on the sentiments scores received from the comments and number of views of the video to prevent it from bias.
+        <br/>
+        <button class='btn btn--small btn--light-outline tech-label'>Python</button>
+        <button class='btn btn--small btn--light-outline tech-label'>Flask</button>
+        <button class='btn btn--small btn--light-outline tech-label'>Google Cloud</button>
+        <a class='btn btn--small btn--primary'>VIEW ON <i class="fa fa-github" aria-hidden="true"></i></a>
+      </span>
+    </li>
+    <li>
+      <strong>Vehicle Routing Problems</strong>
+      <code class="highlighter-rouge ">March 2020 - May 2020</code>
+      <br/>
+      <span>
+        Wrote the code for various techniques to solve generalized Vehicle Routing Problem. The techniques I simulated included the Ant Colony System, Cristofides Algorithm and Brute Force Search. Also built a visualizer for the algorithm to understand time and space complexities of the Algorithm. Was awarded the best project in class.
+        <br/>
+        <button class='btn btn--small btn--light-outline tech-label'>Python</button>
+        <a class='btn btn--small btn--primary'>VIEW ON <i class="fa fa-github" aria-hidden="true"></i></a>
+      </span>
+    </li>
+    <li>
+      <strong>PSU-Crypt</strong>
+      <code class="highlighter-rouge ">Jan 2020 - Mar 2020</code>
+      <br/>
+      <span>
+        Wrote a symmetric key encryption algorithm which uses features of SkipJack and Blowfish. The algorithm uses 64 bit keys and encrypts 80 bit block data. Saw 2x performance improvements over using DES.
+        <br/>
+        <button class='btn btn--small btn--light-outline tech-label'>Python</button>
+        <button class='btn btn--small btn--light-outline tech-label'>Flask</button>
+        <button class='btn btn--small btn--light-outline tech-label'>Google Cloud</button>
+        <a class='btn btn--small btn--primary'>VIEW ON <i class="fa fa-github" aria-hidden="true"></i></a>
+      </span>
+    </li>
+    <li>
+      <strong>Effects of Removing Noise using DBSCAN on the efficiency of Clustering Algorithms</strong>
+      <code class="highlighter-rouge ">Jan 2020 - Mar 2020</code>
+      <br/>
+      <span>
+        Explored the effects of removing noise using unsupervised algorithms on the accuracy of supervised algorithms.
+Using DBSCAN clustering algorithm in combination with Support Vector Machine and three variations of naive Bayes classifier saw 1.5x improvements in the accuracy of the classifier
+        <br/>
+        <button class='btn btn--small btn--light-outline tech-label'>Python</button>
+        <button class='btn btn--small btn--light-outline tech-label'>Support Vector Machines</button>
+        <button class='btn btn--small btn--light-outline tech-label'>Un-Supervised Learning</button>
         <a class='btn btn--small btn--primary'>VIEW ON <i class="fa fa-github" aria-hidden="true"></i></a>
       </span>
     </li>
@@ -92,56 +153,7 @@ date: 2018-06-23T17:10:45.025Z
         <a class='btn btn--small btn--primary'>VIEW ON <i class="fa fa-github" aria-hidden="true"></i></a>
       </span>
     </li>
-    <li>
-      <strong>Vulnerability Assessment using logs as Big Data</strong>
-      <code class="highlighter-rouge ">June 2015 - May 2016</code><br/>
-      <span>
-        A linux based system capable of detecting and notifying vulnerabilities (like intrusions, password cracking attempt, etc) of each and every machine by collecting system logs and analyze them using Hadoop.
-        <br/>
-        <button class='btn btn--small btn--light-outline tech-label'>Java</button>
-        <button class='btn btn--small btn--light-outline tech-label'>Hadoop</button>
-        <button class='btn btn--small btn--light-outline tech-label'>Pig</button>
-        <button class='btn btn--small btn--light-outline tech-label'>JSP</button>
-        <button class='btn btn--small btn--light-outline tech-label'>HTML</button>
-        <button class='btn btn--small btn--light-outline tech-label'>CSS</button>
-        <a target="_blank" href="https://github.com/abhishek-mane/vulnerability-assessment" class='btn btn--small btn--primary'>VIEW ON <i class="fa fa-github" aria-hidden="true"></i></a>
-      </span>
-    </li>
-    <li>
-      <strong>IBM Cloud Orchestrator (ICO)</strong>
-      <code class="highlighter-rouge ">Nov 2016 - Jul 2017</code>
-      <code class="highlighter-rouge live-label">LIVE</code>
-      <br/>
-      <span>
-        IBM Cloud Orchestrator is a cloud management platform that automates provisioning of cloud services using policy-based tools. Worked as a level-3 support team member responsible for fixing the code issues and customer interactions for the issues.
-        <br/>
-        <button class='btn btn--small btn--light-outline tech-label'>Java</button>
-        <button class='btn btn--small btn--light-outline tech-label'>IBM BPM</button>
-        <button class='btn btn--small btn--light-outline tech-label'>JS</button>
-      </span>
-    </li>
-    <li>
-      <strong>Usage/Cost of cloud resources using OpenStack Ceilometer</strong>
-      <code class="highlighter-rouge ">Sep 2016 - Oct 2016</code>
-      <br/>
-      <span>
-        Used OpenStack Ceilometer python SDK to get the usage of cloud resources to generate the bill from standard rate charts.
-        <br/>
-        <button class='btn btn--small btn--light-outline tech-label'>Python</button>
-        <button class='btn btn--small btn--light-outline tech-label'>OpenStack</button>
-      </span>
-    </li>
-    <li>
-      <strong>Virtual Machine Migration</strong>
-      <code class="highlighter-rouge ">Oct 2016 - Nov 2016</code>
-      <br/>
-      <span>
-        IBM BPM based orchestration to migrate the virtual machine from vmware vcenter to hyper-v and vice-versa.
-        <br/>
-        <button class='btn btn--small btn--light-outline tech-label'>IBM BPM</button>
-        <button class='btn btn--small btn--light-outline tech-label'>Powershell</button>
-      </span>
-    </li>
+    
   </ul>
 </div>
 <!-- 
@@ -274,13 +286,23 @@ date: 2018-06-23T17:10:45.025Z
 
 <div class="cv_content">
   <ul>
+  <li>
+      <strong>M.S Computer Science</strong>
+      <code class="highlighter-rouge ">2019 - 2021</code>
+      <br/>
+      <span>
+        <i>
+          <i class="fa fa-institution" aria-hidden="true"></i> Portland State University, <i class="fa fa-map-marker" aria-hidden="true"></i> Portland, Oregon.
+        </i>
+      </span>
+    </li>
     <li>
-      <strong>Graduation in Computer Science</strong>
+      <strong>B.S Computer Science</strong>
       <code class="highlighter-rouge ">2012 - 2016</code>
       <br/>
       <span>
         <i>
-          <i class="fa fa-institution" aria-hidden="true"></i> D. Y. Patil College of Engineering, <i class="fa fa-map-marker" aria-hidden="true"></i> Akurdi, Pune.
+          <i class="fa fa-institution" aria-hidden="true"></i> University of Pune <i class="fa fa-map-marker" aria-hidden="true"></i> Akurdi, Pune.
         </i>
       </span>
     </li>
@@ -290,7 +312,7 @@ date: 2018-06-23T17:10:45.025Z
       <br/>
       <span>
         <i>
-          <i class="fa fa-institution" aria-hidden="true"></i> Bharat English School & Jr. College, <i class="fa fa-map-marker" aria-hidden="true"></i> Shivajinagar, Pune.
+          <i class="fa fa-institution" aria-hidden="true"></i> B.V.M School, <i class="fa fa-map-marker" aria-hidden="true"></i> SrikrishnaNagar, Nagpur, India.
         </i>
       </span>
     </li>
@@ -300,7 +322,7 @@ date: 2018-06-23T17:10:45.025Z
       <br/>
       <span>
         <i>
-          <i class="fa fa-institution" aria-hidden="true"></i> Prerana Prathmik & Madhyamik Vidyalaya <i class="fa fa-map-marker" aria-hidden="true"></i> Pune.
+          <i class="fa fa-institution" aria-hidden="true"></i> Montfort School, <i class="fa fa-map-marker" aria-hidden="true"></i> Nagpur, India.
         </i>
       </span>
     </li>
@@ -318,10 +340,10 @@ date: 2018-06-23T17:10:45.025Z
 <div class="cv_content">
   <small>
     <i class='fa fa-phone' aria-hidden='true'></i> 
-    <a style ="text-decoration: none;" href="tel:+918626073884">(+91) 86260 73884</a>
+    <a style ="text-decoration: none;" href="tel:+19717164114">(+1) 971-716-4114</a>
     <br/>
     <i class='fa fa-envelope' aria-hidden='true'></i> 
-    <a style ="text-decoration: none;" href="mailto:abhishekmane@outlook.in">abhishekmane@outlook.in</a>
+    <a style ="text-decoration: none;" href="mailto:utsav@pdx.edu">utsav@pdx.edu</a>
   </small>
 </div>
 <!-- 
