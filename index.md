@@ -14,7 +14,7 @@ date: 2020-09-23T17:10:45.025Z
 <div class="cv_content">
   <ul>
   <li>
-      <strong>Portland State University, <i class="fa fa-map-marker" aria-hidden="true"></i> Pune</strong>
+      <strong>Portland State University, <i class="fa fa-map-marker" aria-hidden="true"></i> Portland, Oregon</strong>
       <code class="highlighter-rouge ">Feb 2020 - Present</code>
       <br/>
       <span>
