@@ -16,6 +16,7 @@ date: 2020-09-23T17:10:45.025Z
   <li>
       <strong>Portland State University, <i class="fa fa-map-marker" aria-hidden="true"></i> Portland, Oregon</strong>
       <code class="highlighter-rouge ">Feb 2020 - Present</code>
+      <code class="highlighter-rouge live-label">LIVE</code>
       <br/>
       <span>
         <i class='fa fa-laptop' aria-hidden='true'></i> <i>Graduate Research Assistant</i>
