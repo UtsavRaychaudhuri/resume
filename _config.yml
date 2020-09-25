@@ -5,7 +5,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
-minimal_mistakes_skin    : "contrast" # "air", "contrast", neon", "mint", "default"
+minimal_mistakes_skin    : "mint" # "air", "contrast", neon", "mint", "default"
 
 # Site Settings
 locale                   : "en"
@@ -13,7 +13,7 @@ title                    : "Portfolio"
 title_separator          : "-"
 name                     : "Utsav Raychaudhuri"
 description              : "MS in Computer Science. Actively Looking for full time Opportunities starting April 2021"
-url                      : # the base hostname & protocol for your site e.g. "https://abhishek-mane.github.io"
+url                      : # the base hostname & protocol for your site e.g. "https://utsav-raychaudhuri.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -100,7 +100,7 @@ author:
   foursquare       :
   google_plus      :
   keybase          :
-  instagram        : #"abhishek.v.mane"
+  instagram        : #"utsav.raychaudhuri"
   lastfm           :
   linkedin         : "utsav-raychaudhuri"
   pinterest        : 
@@ -112,7 +112,7 @@ author:
   vine             :
   weibo            :
   xing             :
-  youtube          : # "https://youtube.com/c/MichaelRoseDesign"
+  youtube          : # ""
 
 
 # Reading Files
